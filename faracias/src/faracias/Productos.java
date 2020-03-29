@@ -596,6 +596,7 @@ public void limpiar(){
     private void btningresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btningresarActionPerformed
         // TODO add your handling code here:
         PreparedStatement pg = null;
+        
         try{
             Conexion objCon = new Conexion();
             Connection conexion = objCon.Conectar();

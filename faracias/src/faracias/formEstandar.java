@@ -183,7 +183,7 @@ public class formEstandar extends javax.swing.JFrame {
 
     private void btnClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClienteActionPerformed
         // TODO add your handling code here:
-        ClienteEstan ClE = new ClienteEstan();
+        ClienteEstan_tmp ClE = new ClienteEstan_tmp();
         ClE.setVisible(true);
         dispose();
                 
@@ -200,7 +200,7 @@ public class formEstandar extends javax.swing.JFrame {
     private void btnmclienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnmclienteActionPerformed
         // TODO add your handling code here:
         
-        ClienteEstan ClE = new ClienteEstan();
+        ClienteEstan_tmp ClE = new ClienteEstan_tmp();
         ClE.setVisible(true);
         dispose();
     }//GEN-LAST:event_btnmclienteActionPerformed
